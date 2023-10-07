@@ -2,15 +2,41 @@ body{
     margin:0;
     padding:0;
     text-align: center;
+    background-color: antiquewhite;
 }
-
-#text_box{
-    
-    padding:3px;
+.text-secondary{
+    color: lightslategray;
+}
+.text-box{
+    border:2px solid black;
+    border-radius: 14px;
+    margin:0 auto;
+    padding:8px;
+    width:80%;
+    height:150px;
+    background-color: rgb(242, 248, 204);
+}
+.buttons{
+    margin-top: 15px;
+   
 }
 .btn{
-   
-   margin-left: 5px;
-    height:28px;
-}
+    border: none;
+    padding:10px 20px;
+    margin:6px;
+    border-radius: 8px;
+    font-size: medium;
 
+}
+.btn-start{
+    background-color: rgb(40, 171, 40);
+}
+.btn-stop{
+    background-color: rgb(240, 50, 50);
+}
+.btn-start:hover{
+    color:antiquewhite;
+}
+.btn-stop:hover{
+    color: antiquewhite;
+}
