@@ -9,11 +9,15 @@
 <body>
     <div class="conatiner">
         <h1>Speech to Text</h1>
-        <div>
-        <textarea id="text_box" cols="30" rows="10"></textarea>
-        <button class="btn">🎤</button>
+        <div class="text-box">
+            <span id="final" class="text-light"></span>
+            <span id="interim" class="text-secondary"></span>
         </div>
-        <p id="counter">press the mic to start voice typing</p>
+    <div class="buttons">
+        <button class="btn btn-start" id="start">Start</button>
+        <button class="btn btn-stop" id="stop">Stop</button>
+        <p id="counter"></p>
+    </div>
     </div>
 
 </body>
